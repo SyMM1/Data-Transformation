@@ -1,0 +1,13 @@
+library(tidyverse)
+library(ggplot2)
+install.packages("nycflights13")
+library(nycflights13)
+library(dplyr)
+nycflights13::flights
+View(flights)
+filter(flights,month==1,day==1)
+View(flights)
+jan1 <- filter(flights,month==1,day==1)
+View(jan1)
+near(sqrt(2)^2,2)
+filter(flights,month==11|month==12)
